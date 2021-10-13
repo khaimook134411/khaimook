@@ -17,20 +17,17 @@ function App() {
       <Router>
       <Navbar />
         <Switch>
-        <Route exact path="/">
+        <Route exact path="/khaimook">
           <Content />
         </Route>
-        <Route path="/skill">
+        <Route path="/khaimook/skill">
           <Skill />
-        {/* <div style={{paddingTop:100}}>skill</div> */}
         </Route>
-        <Route path="/education">
+        <Route path="/khaimook/education">
           <Education />
-          {/* <div style={{paddingTop:100}}>education</div> */}
         </Route>
-        <Route path="/stories">
+        <Route path="/khaimook/stories">
           <Stories />
-          {/* <div style={{paddingTop:100}}>stories</div> */}
         </Route>
         </Switch>
       </Router>    

@@ -21,7 +21,7 @@ export default function Navbar() {
 
                 <div className={CSS.menu}>
                     <div className={CSS.link}>
-                        <Link to="/">
+                        <Link to="/khaimook">
                             <div className={CSS.linkIcon}>
                                 <FontAwesomeIcon icon={faAddressCard} />
                             </div>
@@ -30,7 +30,7 @@ export default function Navbar() {
                     </div>
 
                     <div className={CSS.link}>
-                        <Link to="/skill">
+                        <Link to="/khaimook/skill">
                             <div className={CSS.linkIcon}>
                                 <FontAwesomeIcon icon={faBook} />
                             </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
                     </div>
 
                     <div className={CSS.link}>
-                        <Link to="/education">
+                        <Link to="/khaimook/education">
                             <div className={CSS.linkIcon}>
                                 <FontAwesomeIcon icon={faGraduationCap} />
                             </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
                     </div>
 
                     <div className={CSS.link}>
-                        <Link to="/stories">
+                        <Link to="/khaimook/stories">
                             <div className={CSS.linkIcon}>
                                 <FontAwesomeIcon icon={faNewspaper} />
                             </div>
@@ -68,7 +68,7 @@ export default function Navbar() {
             { //jsx
                 display && (
                     <div className={CSS.linkMobile}>
-                        <Link to="/">
+                        <Link to="/khaimook">
                             <div onClick={displayNav} className={CSS.linkIconMobile}>
                                 <div className={CSS.linkIconMobile2}>
                                     <FontAwesomeIcon icon={faAddressCard} />
@@ -77,7 +77,7 @@ export default function Navbar() {
                             </div>
                         </Link>
                         
-                        <Link to="/skill">
+                        <Link to="/khaimook/skill">
                             <div onClick={displayNav} className={CSS.linkIconMobile}>
                                 <div className={CSS.linkIconMobile2}>
                                     <FontAwesomeIcon icon={faBook} />
@@ -86,7 +86,7 @@ export default function Navbar() {
                             </div>
                         </Link>
 
-                        <Link to="/education">
+                        <Link to="/khaimook/education">
                             <div onClick={displayNav} className={CSS.linkIconMobile}>
                                 <div className={CSS.linkIconMobile2}>
                                     <FontAwesomeIcon icon={faGraduationCap} />
@@ -95,7 +95,7 @@ export default function Navbar() {
                             </div>
                         </Link>
 
-                        <Link to="/stories">
+                        <Link to="/khaimook/stories">
                             <div onClick={displayNav} className={CSS.linkIconMobile}>
                                 <div className={CSS.linkIconMobile2}>
                                     <FontAwesomeIcon icon={faNewspaper} />
