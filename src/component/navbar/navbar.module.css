@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+  
+body{
+    /* height: 400vh; */
+    background: #EEEEEE;
+}
+.container{
+    display: flex;
+    background-color: #7AA5D2;
+    color: #EEEEEE;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: calc(100vw - 20px);
+    z-index: 999;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: white;
+}
+.logo img{
+    height: 80px;
+   
+}
+.link , a{
+    display: flex;
+    gap: 8px;
+    transition: .5s ease;
+}
+.menu{
+    display: flex;
+    gap: 3rem;
+   
+}
+.linkText,.linkIcon{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.link:hover{
+    color: #47555E;
+    transform: scale(1.2);
+}
+.hamburger{
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    z-index: 1;
+    color: #EEEEEE;
+}
+.hamburger:hover{
+    color:#47555E;
+    transform: scale(1.1);
+}
+
+.linkMobile{ 
+    display: none;
+    animation: yourAnimation .5s ease 0s  normal none;
+    position: fixed;
+    width: 100vw;
+    top: 63px;
+}
+
+.linkIconMobile2{
+    width: 25px;
+}
+@keyframes yourAnimation {
+    0.0%{
+        transform: translate(0,-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0px);
+    }
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        justify-content : space-between;
+    }
+    .link{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .logo img{
+        height: 40px;
+    }
+    .logo span{
+        display: none;
+    }
+    .linkMobile{
+        display: block;
+    }
+    
+}
+.linkMobile{
+    background-color: #7AA5D2;
+    margin-top: -3px;
+    z-index: 1;
+
+}
+.linkIconMobile{
+    display: flex;
+    color: #EEEEEE;
+    gap: 1rem;
+    padding: 10px 5px 10px 20px;
+  
+}
+.linkIconMobile:hover{
+    color: #47555E;
+}
+
