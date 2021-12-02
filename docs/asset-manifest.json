@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/khaimook/static/css/main.718979ca.chunk.css",
+    "main.js": "/khaimook/static/js/main.7fb3071c.chunk.js",
+    "main.js.map": "/khaimook/static/js/main.7fb3071c.chunk.js.map",
+    "runtime-main.js": "/khaimook/static/js/runtime-main.93ae1495.js",
+    "runtime-main.js.map": "/khaimook/static/js/runtime-main.93ae1495.js.map",
+    "static/js/2.40b39ab7.chunk.js": "/khaimook/static/js/2.40b39ab7.chunk.js",
+    "static/js/2.40b39ab7.chunk.js.map": "/khaimook/static/js/2.40b39ab7.chunk.js.map",
+    "static/js/3.e886508b.chunk.js": "/khaimook/static/js/3.e886508b.chunk.js",
+    "static/js/3.e886508b.chunk.js.map": "/khaimook/static/js/3.e886508b.chunk.js.map",
+    "index.html": "/khaimook/index.html",
+    "static/css/main.718979ca.chunk.css.map": "/khaimook/static/css/main.718979ca.chunk.css.map",
+    "static/js/2.40b39ab7.chunk.js.LICENSE.txt": "/khaimook/static/js/2.40b39ab7.chunk.js.LICENSE.txt",
+    "static/media/Office-365.c4a38b36.png": "/khaimook/static/media/Office-365.c4a38b36.png",
+    "static/media/bgProfile.00f12e66.jpg": "/khaimook/static/media/bgProfile.00f12e66.jpg",
+    "static/media/chb.13fc0f70.jpeg": "/khaimook/static/media/chb.13fc0f70.jpeg",
+    "static/media/creative.65a95239.jpeg": "/khaimook/static/media/creative.65a95239.jpeg",
+    "static/media/css.6ac464f3.png": "/khaimook/static/media/css.6ac464f3.png",
+    "static/media/facebook.4f037d96.png": "/khaimook/static/media/facebook.4f037d96.png",
+    "static/media/html.76fcf13d.jpeg": "/khaimook/static/media/html.76fcf13d.jpeg",
+    "static/media/ig.e719d8b2.png": "/khaimook/static/media/ig.e719d8b2.png",
+    "static/media/javaS.91b6e057.jpeg": "/khaimook/static/media/javaS.91b6e057.jpeg",
+    "static/media/kmitl.c444b341.JPG": "/khaimook/static/media/kmitl.c444b341.JPG",
+    "static/media/line.fc29bdac.png": "/khaimook/static/media/line.fc29bdac.png",
+    "static/media/logo.991bcd32.png": "/khaimook/static/media/logo.991bcd32.png",
+    "static/media/map.82056140.png": "/khaimook/static/media/map.82056140.png",
+    "static/media/matlab.22b47da9.jpeg": "/khaimook/static/media/matlab.22b47da9.jpeg",
+    "static/media/nb.ad2dab9d.jpeg": "/khaimook/static/media/nb.ad2dab9d.jpeg",
+    "static/media/php.0ce997b7.jpeg": "/khaimook/static/media/php.0ce997b7.jpeg",
+    "static/media/pic4.ca744531.JPG": "/khaimook/static/media/pic4.ca744531.JPG",
+    "static/media/profile.d00b3bc2.jpeg": "/khaimook/static/media/profile.d00b3bc2.jpeg",
+    "static/media/py.da49f65a.png": "/khaimook/static/media/py.da49f65a.png",
+    "static/media/twitter.cab83ccd.png": "/khaimook/static/media/twitter.cab83ccd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ae1495.js",
+    "static/js/2.40b39ab7.chunk.js",
+    "static/css/main.718979ca.chunk.css",
+    "static/js/main.7fb3071c.chunk.js"
+  ]
+}
