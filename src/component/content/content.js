@@ -2,10 +2,6 @@ import React, { useEffect,useState } from 'react'
 import style from "./content.module.css"
 import img from "./../../img/profile.jpeg"
 import img2 from "./../../img/bgProfile.jpg"
-import facebook from "./../../img/facebook.png"
-import line from "./../../img/line.png"
-import ig from "./../../img/ig.png"
-import twitter from "./../../img/twitter.png"
 import pic4 from "./../../img/pic4.JPG"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faNewspaper, faGraduationCap,faBook,faPhoneSquareAlt ,faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
@@ -38,8 +34,16 @@ export default function Content() {
                 <span>Thanaphorn Wutthikunprapan</span>
             </div>
             <div className={style.iconContact}>
-                <span><FontAwesomeIcon icon={faPhoneSquareAlt} /></span>
-                <span><FontAwesomeIcon icon={faEnvelopeSquare} /></span>
+                <span>
+                    <a href="tel:0818879752" target="_blank">
+                        <FontAwesomeIcon icon={faPhoneSquareAlt} />
+                    </a> 
+                </span>
+                <span>
+                    <a href="mailto:twutthikunprapan@gmail.com" target="_blank">
+                        <FontAwesomeIcon icon={faEnvelopeSquare} />
+                    </a>
+                </span>     
             </div>
             <div className={style.conIntro}>
                 <div>Welcome to my web site. </div>
@@ -52,7 +56,7 @@ export default function Content() {
                 <div className={style.line}></div>
             </div>
             <div className={style.containerIcon}>
-                <Link to="/skill">
+                <Link to="/khaimook/skill">
                     <div className={style.link}>
                         <div className={style.linkIcon}>
                             <div className={style.bgIcon}><FontAwesomeIcon icon={faBook} /></div>
@@ -60,7 +64,7 @@ export default function Content() {
                         <div className={style.linkText}>Skill</div>
                     </div>
                 </Link>
-                <Link to="/education">
+                <Link to="/khaimook/education">
                     <div className={style.link}>
                         <div className={style.linkIcon}>
                             <div className={style.bgIcon}><FontAwesomeIcon icon={faGraduationCap} /></div>
@@ -68,7 +72,7 @@ export default function Content() {
                         <div className={style.linkText}>Education</div>
                     </div>
                 </Link>
-                <Link to="/stories">
+                <Link to="/khaimook/stories">
                     <div className={style.link}>
                         <div className={style.linkIcon}>
                             <div className={style.bgIcon}><FontAwesomeIcon icon={faNewspaper} /></div>
@@ -96,12 +100,6 @@ export default function Content() {
                     <img src={pic4}/>
                 </div>
                 <div className={style.textFav}>
-                    <div className={style.imgMedia}>
-                        <img src={facebook}/>
-                        <img src={line}/>
-                        <img src={ig}/>
-                        <img src={twitter}/>
-                    </div>
                     <div className={style.favthing}>Favorite thing</div>
                     <div>Hobby : Board games [Chess, Sam-kok]</div>
                     <div>Sport : Volleyball</div>

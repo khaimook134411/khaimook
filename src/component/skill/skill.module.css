@@ -8,13 +8,15 @@
 .skill{
     font-family: 'Heebo', sans-serif;
     font-weight: 600;
-    color: #303841;
+    color: white;
     font-size: 40px;
     display: flex;
     justify-content: center;
 }
 .container{
     padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #23374d;
 }
 .conRow{
     display: grid;
@@ -60,12 +62,19 @@
         width: 150px;
         height: 100px;
     }
+    .skill{
+        margin-top: -70px;
+        margin-bottom: -20px;
+        font-size: 30px;
+    }
  }
  @media only screen and (max-width:500px){
      .container{
-         padding-top: 70px;
+         padding-top: 80px;
      }
      .skill{
+        margin-top: 15px;
+        margin-bottom: 15px;
          font-size: 30px;
      }
     .conRow{

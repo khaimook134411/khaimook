@@ -9,6 +9,7 @@ import {
 import Skill from './component/skill/skill';
 import Education from './component/education/education';
 import Stories from './component/stories/stories'
+import Footer from './component/footer/footer';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Stories />
         </Route>
         </Switch>
+      <Footer />
       </Router>    
     </div>
   );
