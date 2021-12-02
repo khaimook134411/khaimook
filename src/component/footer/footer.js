@@ -40,7 +40,7 @@ export default function Footer() {
                         </a>
                     </span>
                         twutthikunprapan@gmail.com
-                    </div>
+                    </div> 
                 <div className={style.imgMedia}>
                     <a href="https://www.facebook.com/thanaphorn.wutthikulpraphan.3" target="_blank"><img src={facebook} /></a>
                     <a href="https://line.me/ti/p/a-D3XiAVA-" target="_blank"><img src={line} /></a>
